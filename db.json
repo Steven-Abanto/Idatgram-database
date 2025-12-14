@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "username": "steven",
+      "email": "steven@idat.pe",
+      "displayName": "Steven Abanto",
+      "profileImageUrl": "https://picsum.photos/200",
+      "bio": "Estudiante de IDAT"
+    },
+    {
+      "id": "user_2",
+      "username": "estefany",
+      "email": "estefany@idat.pe",
+      "displayName": "Estefany Schaefer",
+      "profileImageUrl": "https://picsum.photos/201",
+      "bio": "Android Developer"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_1",
+      "userId": "user_1",
+      "caption": "Mi primer post en Idatgram 🚀",
+      "imageUrl": "https://picsum.photos/500/500",
+      "location": "Lima"
+    },
+    {
+      "id": "post_2",
+      "userId": "user_2",
+      "caption": "Jetpack Compose es increíble 🔥",
+      "imageUrl": "https://picsum.photos/501/501",
+      "location": "Perú"
+    }
+  ]
+}
