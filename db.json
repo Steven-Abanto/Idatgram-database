@@ -202,17 +202,6 @@
       "updatedAt": 1710002000003
     },
     {
-      "id": "c1_5",
-      "postId": "post_1",
-      "userId": "user_1",
-      "text": "Gracias a todos 🙌",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1710002000004,
-      "updatedAt": 1710002000004
-    },
-        {
       "id": "c2_1",
       "postId": "post_2",
       "userId": "user_2",
@@ -257,17 +246,6 @@
       "updatedAt": 1710002000003
     },
     {
-      "id": "c2_5",
-      "postId": "post_2",
-      "userId": "user_1",
-      "text": "Gracias a todos 🙌",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1710002000004,
-      "updatedAt": 1710002000004
-    },
-        {
       "id": "c3_1",
       "postId": "post_3",
       "userId": "user_2",
@@ -312,17 +290,6 @@
       "updatedAt": 1710002000003
     },
     {
-      "id": "c3_5",
-      "postId": "post_3",
-      "userId": "user_1",
-      "text": "Gracias a todos 🙌",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1710002000004,
-      "updatedAt": 1710002000004
-    },
-        {
       "id": "c4_1",
       "postId": "post_4",
       "userId": "user_2",
@@ -367,17 +334,6 @@
       "updatedAt": 1710002000003
     },
     {
-      "id": "c4_5",
-      "postId": "post_4",
-      "userId": "user_1",
-      "text": "Gracias a todos 🙌",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1710002000004,
-      "updatedAt": 1710002000004
-    },
-        {
       "id": "c5_1",
       "postId": "post_5",
       "userId": "user_2",
@@ -420,17 +376,6 @@
       "parentCommentId": null,
       "createdAt": 1710002000003,
       "updatedAt": 1710002000003
-    },
-    {
-      "id": "c5_5",
-      "postId": "post_5",
-      "userId": "user_1",
-      "text": "Gracias a todos 🙌",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1710002000004,
-      "updatedAt": 1710002000004
     }
   ],
 
