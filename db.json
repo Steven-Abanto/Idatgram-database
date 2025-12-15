@@ -160,7 +160,7 @@
     {
       "id": "c1_1",
       "postId": "post_1",
-      "userId": "user_2",
+      "userId": "user_1",
       "text": "Hermosa foto 😍",
       "likesCount": 0,
       "repliesCount": 0,
@@ -171,7 +171,7 @@
     {
       "id": "c1_2",
       "postId": "post_1",
-      "userId": "user_3",
+      "userId": "user_2",
       "text": "Me encanta el cielo",
       "likesCount": 0,
       "repliesCount": 0,
@@ -182,7 +182,7 @@
     {
       "id": "c1_3",
       "postId": "post_1",
-      "userId": "user_4",
+      "userId": "user_3",
       "text": "Qué lugar es?",
       "likesCount": 0,
       "repliesCount": 0,
@@ -191,20 +191,9 @@
       "updatedAt": 1710002000002
     },
     {
-      "id": "c1_4",
-      "postId": "post_1",
-      "userId": "user_5",
-      "text": "Colores increíbles",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1710002000003,
-      "updatedAt": 1710002000003
-    },
-    {
       "id": "c2_1",
       "postId": "post_2",
-      "userId": "user_2",
+      "userId": "user_4",
       "text": "Hermosa foto 😍",
       "likesCount": 0,
       "repliesCount": 0,
@@ -215,7 +204,7 @@
     {
       "id": "c2_2",
       "postId": "post_2",
-      "userId": "user_3",
+      "userId": "user_5",
       "text": "Me encanta el cielo",
       "likesCount": 0,
       "repliesCount": 0,
@@ -226,24 +215,13 @@
     {
       "id": "c2_3",
       "postId": "post_2",
-      "userId": "user_4",
+      "userId": "user_1",
       "text": "Qué lugar es?",
       "likesCount": 0,
       "repliesCount": 0,
       "parentCommentId": null,
       "createdAt": 1710002000002,
       "updatedAt": 1710002000002
-    },
-    {
-      "id": "c2_4",
-      "postId": "post_2",
-      "userId": "user_5",
-      "text": "Colores increíbles",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1710002000003,
-      "updatedAt": 1710002000003
     },
     {
       "id": "c3_1",
@@ -279,20 +257,9 @@
       "updatedAt": 1710002000002
     },
     {
-      "id": "c3_4",
-      "postId": "post_3",
-      "userId": "user_5",
-      "text": "Colores increíbles",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1710002000003,
-      "updatedAt": 1710002000003
-    },
-    {
       "id": "c4_1",
       "postId": "post_4",
-      "userId": "user_2",
+      "userId": "user_5",
       "text": "Hermosa foto 😍",
       "likesCount": 0,
       "repliesCount": 0,
@@ -303,7 +270,7 @@
     {
       "id": "c4_2",
       "postId": "post_4",
-      "userId": "user_3",
+      "userId": "user_1",
       "text": "Me encanta el cielo",
       "likesCount": 0,
       "repliesCount": 0,
@@ -314,7 +281,7 @@
     {
       "id": "c4_3",
       "postId": "post_4",
-      "userId": "user_4",
+      "userId": "user_2",
       "text": "Qué lugar es?",
       "likesCount": 0,
       "repliesCount": 0,
@@ -323,20 +290,9 @@
       "updatedAt": 1710002000002
     },
     {
-      "id": "c4_4",
-      "postId": "post_4",
-      "userId": "user_5",
-      "text": "Colores increíbles",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1710002000003,
-      "updatedAt": 1710002000003
-    },
-    {
       "id": "c5_1",
       "postId": "post_5",
-      "userId": "user_2",
+      "userId": "user_3",
       "text": "Hermosa foto 😍",
       "likesCount": 0,
       "repliesCount": 0,
@@ -347,7 +303,7 @@
     {
       "id": "c5_2",
       "postId": "post_5",
-      "userId": "user_3",
+      "userId": "user_4",
       "text": "Me encanta el cielo",
       "likesCount": 0,
       "repliesCount": 0,
@@ -358,24 +314,13 @@
     {
       "id": "c5_3",
       "postId": "post_5",
-      "userId": "user_4",
+      "userId": "user_5",
       "text": "Qué lugar es?",
       "likesCount": 0,
       "repliesCount": 0,
       "parentCommentId": null,
       "createdAt": 1710002000002,
       "updatedAt": 1710002000002
-    },
-    {
-      "id": "c5_4",
-      "postId": "post_5",
-      "userId": "user_5",
-      "text": "Colores increíbles",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1710002000003,
-      "updatedAt": 1710002000003
     }
   ],
 
