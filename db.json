@@ -1,6 +1,22 @@
 {
   "users": [
     {
+      "id": "current_user",
+      "username": "mi_usuario",
+      "email": "yo@idatgram.com",
+      "displayName": "Mi Perfil",
+      "bio": "Estudiante de desarrollo móvil 📱💻",
+      "profileImageUrl": "https://picsum.photos/200/200?random=0",
+      "followersCount": 25,
+      "followingCount": 5,
+      "postsCount": 0,
+      "isVerified": false,
+      "isPrivate": false,
+      "website": "",
+      "createdAt": 1710000000005,
+      "updatedAt": 1710000000005
+    },
+    {
       "id": "user_1",
       "username": "ana_garcia",
       "email": "ana@example.com",
@@ -416,5 +432,13 @@
       "createdAt": 1710002000004,
       "updatedAt": 1710002000004
     }
+  ],
+
+  "user_follows": [
+      { "followerId": "current_user", "followingId": "user_1" },
+      { "followerId": "current_user", "followingId": "user_2" },
+      { "followerId": "current_user", "followingId": "user_3" },
+      { "followerId": "current_user", "followingId": "user_4" },
+      { "followerId": "current_user", "followingId": "user_5" }
   ]
 }
