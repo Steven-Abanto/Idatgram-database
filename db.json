@@ -2,35 +2,253 @@
   "users": [
     {
       "id": "user_1",
-      "username": "steven",
-      "email": "steven@idat.pe",
-      "displayName": "Steven Abanto",
-      "profileImageUrl": "https://picsum.photos/200",
-      "bio": "Estudiante de IDAT"
+      "username": "ana_garcia",
+      "email": "ana@example.com",
+      "displayName": "Ana García"
     },
     {
       "id": "user_2",
-      "username": "estefany",
-      "email": "estefany@idat.pe",
-      "displayName": "Estefany Schaefer",
-      "profileImageUrl": "https://picsum.photos/201",
-      "bio": "Android Developer"
+      "username": "carlos_mendez",
+      "email": "carlos@example.com",
+      "displayName": "Carlos Méndez"
+    },
+    {
+      "id": "user_3",
+      "username": "sofia_lopez",
+      "email": "sofia@example.com",
+      "displayName": "Sofía López"
+    },
+    {
+      "id": "user_4",
+      "username": "diego_ruiz",
+      "email": "diego@example.com",
+      "displayName": "Diego Ruiz"
+    },
+    {
+      "id": "user_5",
+      "username": "mi_usuario",
+      "email": "yo@idatgram.com",
+      "displayName": "Mi Perfil"
     }
   ],
+
   "posts": [
     {
       "id": "post_1",
       "userId": "user_1",
-      "caption": "Mi primer post en Idatgram 🚀",
-      "imageUrl": "https://picsum.photos/500/500",
-      "location": "Lima"
+      "caption": "Atardecer mágico en la playa 🌅",
+      "imageUrl": "https://picsum.photos/800/800?random=201",
+      "createdAt": 1700000000000
     },
     {
       "id": "post_2",
       "userId": "user_2",
-      "caption": "Jetpack Compose es increíble 🔥",
-      "imageUrl": "https://picsum.photos/501/501",
-      "location": "Perú"
+      "caption": "Nueva receta de pasta 🍝",
+      "imageUrl": "https://picsum.photos/800/800?random=202",
+      "createdAt": 1700000100000
+    },
+    {
+      "id": "post_3",
+      "userId": "user_3",
+      "caption": "Entrenamiento terminado 💪",
+      "imageUrl": "https://picsum.photos/800/800?random=203",
+      "createdAt": 1700000200000
+    },
+    {
+      "id": "post_4",
+      "userId": "user_4",
+      "caption": "Machu Picchu al amanecer 🏔️",
+      "imageUrl": "https://picsum.photos/800/800?random=204",
+      "createdAt": 1700000300000
+    },
+    {
+      "id": "post_5",
+      "userId": "user_5",
+      "caption": "Mi primera publicación en Idatgram 📸",
+      "imageUrl": "https://picsum.photos/800/800?random=205",
+      "createdAt": 1700000400000
+    }
+  ],
+
+  "comments": [
+    {
+      "id": "comment_1",
+      "postId": "post_1",
+      "userId": "user_2",
+      "text": "Qué hermosa vista 😍",
+      "createdAt": 1700001000000
+    },
+    {
+      "id": "comment_2",
+      "postId": "post_1",
+      "userId": "user_3",
+      "text": "Me encanta la iluminación",
+      "createdAt": 1700001001000
+    },
+    {
+      "id": "comment_3",
+      "postId": "post_1",
+      "userId": "user_4",
+      "text": "Lugar increíble 🌊",
+      "createdAt": 1700001002000
+    },
+    {
+      "id": "comment_4",
+      "postId": "post_1",
+      "userId": "user_5",
+      "text": "Necesito ir ahí!",
+      "createdAt": 1700001003000
+    },
+    {
+      "id": "comment_5",
+      "postId": "post_1",
+      "userId": "user_1",
+      "text": "Gracias por los comentarios 😊",
+      "createdAt": 1700001004000
+    },
+
+    {
+      "id": "comment_6",
+      "postId": "post_2",
+      "userId": "user_1",
+      "text": "Se ve deliciosa 🤤",
+      "createdAt": 1700001100000
+    },
+    {
+      "id": "comment_7",
+      "postId": "post_2",
+      "userId": "user_3",
+      "text": "Quiero la receta!",
+      "createdAt": 1700001101000
+    },
+    {
+      "id": "comment_8",
+      "postId": "post_2",
+      "userId": "user_4",
+      "text": "Perfecta para el almuerzo",
+      "createdAt": 1700001102000
+    },
+    {
+      "id": "comment_9",
+      "postId": "post_2",
+      "userId": "user_5",
+      "text": "Se ve brutal 🔥",
+      "createdAt": 1700001103000
+    },
+    {
+      "id": "comment_10",
+      "postId": "post_2",
+      "userId": "user_2",
+      "text": "Gracias! pronto subo la receta 👨‍🍳",
+      "createdAt": 1700001104000
+    },
+
+    {
+      "id": "comment_11",
+      "postId": "post_3",
+      "userId": "user_1",
+      "text": "Qué disciplina 💪",
+      "createdAt": 1700001200000
+    },
+    {
+      "id": "comment_12",
+      "postId": "post_3",
+      "userId": "user_2",
+      "text": "Motivación pura",
+      "createdAt": 1700001201000
+    },
+    {
+      "id": "comment_13",
+      "postId": "post_3",
+      "userId": "user_4",
+      "text": "Excelente rutina",
+      "createdAt": 1700001202000
+    },
+    {
+      "id": "comment_14",
+      "postId": "post_3",
+      "userId": "user_5",
+      "text": "Inspirador 👏",
+      "createdAt": 1700001203000
+    },
+    {
+      "id": "comment_15",
+      "postId": "post_3",
+      "userId": "user_3",
+      "text": "Gracias! constancia es clave",
+      "createdAt": 1700001204000
+    },
+
+    {
+      "id": "comment_16",
+      "postId": "post_4",
+      "userId": "user_1",
+      "text": "Perú es hermoso 🇵🇪",
+      "createdAt": 1700001300000
+    },
+    {
+      "id": "comment_17",
+      "postId": "post_4",
+      "userId": "user_2",
+      "text": "Sueño con ir ahí",
+      "createdAt": 1700001301000
+    },
+    {
+      "id": "comment_18",
+      "postId": "post_4",
+      "userId": "user_3",
+      "text": "Vista espectacular 😍",
+      "createdAt": 1700001302000
+    },
+    {
+      "id": "comment_19",
+      "postId": "post_4",
+      "userId": "user_5",
+      "text": "Algún día iré 🙌",
+      "createdAt": 1700001303000
+    },
+    {
+      "id": "comment_20",
+      "postId": "post_4",
+      "userId": "user_4",
+      "text": "Totalmente recomendado",
+      "createdAt": 1700001304000
+    },
+
+    {
+      "id": "comment_21",
+      "postId": "post_5",
+      "userId": "user_1",
+      "text": "Bienvenido a Idatgram 👋",
+      "createdAt": 1700001400000
+    },
+    {
+      "id": "comment_22",
+      "postId": "post_5",
+      "userId": "user_2",
+      "text": "Excelente foto!",
+      "createdAt": 1700001401000
+    },
+    {
+      "id": "comment_23",
+      "postId": "post_5",
+      "userId": "user_3",
+      "text": "Buen comienzo 💯",
+      "createdAt": 1700001402000
+    },
+    {
+      "id": "comment_24",
+      "postId": "post_5",
+      "userId": "user_4",
+      "text": "A seguir creando contenido!",
+      "createdAt": 1700001403000
+    },
+    {
+      "id": "comment_25",
+      "postId": "post_5",
+      "userId": "user_5",
+      "text": "Gracias a todos 🙌",
+      "createdAt": 1700001404000
     }
   ]
 }
