@@ -4,31 +4,81 @@
       "id": "user_1",
       "username": "ana_garcia",
       "email": "ana@example.com",
-      "displayName": "Ana García"
+      "displayName": "Ana García",
+      "bio": "Fotógrafa profesional 📸",
+      "profileImageUrl": "https://picsum.photos/200/200?1",
+      "followersCount": 120,
+      "followingCount": 80,
+      "postsCount": 1,
+      "isVerified": true,
+      "isPrivate": false,
+      "website": "",
+      "createdAt": 1710000000000,
+      "updatedAt": 1710000000000
     },
     {
       "id": "user_2",
       "username": "carlos_mendez",
       "email": "carlos@example.com",
-      "displayName": "Carlos Méndez"
+      "displayName": "Carlos Méndez",
+      "bio": "Chef & foodie 🍝",
+      "profileImageUrl": "https://picsum.photos/200/200?2",
+      "followersCount": 98,
+      "followingCount": 45,
+      "postsCount": 1,
+      "isVerified": false,
+      "isPrivate": false,
+      "website": "",
+      "createdAt": 1710000000001,
+      "updatedAt": 1710000000001
     },
     {
       "id": "user_3",
       "username": "sofia_lopez",
       "email": "sofia@example.com",
-      "displayName": "Sofía López"
+      "displayName": "Sofía López",
+      "bio": "Fitness & wellness 💪",
+      "profileImageUrl": "https://picsum.photos/200/200?3",
+      "followersCount": 210,
+      "followingCount": 120,
+      "postsCount": 1,
+      "isVerified": true,
+      "isPrivate": false,
+      "website": "",
+      "createdAt": 1710000000002,
+      "updatedAt": 1710000000002
     },
     {
       "id": "user_4",
       "username": "diego_ruiz",
       "email": "diego@example.com",
-      "displayName": "Diego Ruiz"
+      "displayName": "Diego Ruiz",
+      "bio": "Viajero 🌍",
+      "profileImageUrl": "https://picsum.photos/200/200?4",
+      "followersCount": 75,
+      "followingCount": 60,
+      "postsCount": 1,
+      "isVerified": false,
+      "isPrivate": false,
+      "website": "",
+      "createdAt": 1710000000003,
+      "updatedAt": 1710000000003
     },
     {
       "id": "user_5",
-      "username": "mi_usuario",
-      "email": "yo@idatgram.com",
-      "displayName": "Mi Perfil"
+      "username": "lucia_torres",
+      "email": "lucia@example.com",
+      "displayName": "Lucía Torres",
+      "bio": "Arte & diseño 🎨",
+      "profileImageUrl": "https://picsum.photos/200/200?5",
+      "followersCount": 180,
+      "followingCount": 140,
+      "postsCount": 1,
+      "isVerified": false,
+      "isPrivate": false,
+      "website": "",
+      "createdAt": 1710000000004,
+      "updatedAt": 1710000000004
     }
   ],
 
@@ -36,219 +86,335 @@
     {
       "id": "post_1",
       "userId": "user_1",
-      "caption": "Atardecer mágico en la playa 🌅",
-      "imageUrl": "https://picsum.photos/800/800?random=201",
-      "createdAt": 1700000000000
+      "caption": "Atardecer increíble 🌅",
+      "imageUrl": "https://picsum.photos/800/800?11",
+      "likesCount": 0,
+      "commentsCount": 5,
+      "location": "Lima",
+      "createdAt": 1710001000000,
+      "updatedAt": 1710001000000
     },
     {
       "id": "post_2",
       "userId": "user_2",
-      "caption": "Nueva receta de pasta 🍝",
-      "imageUrl": "https://picsum.photos/800/800?random=202",
-      "createdAt": 1700000100000
+      "caption": "Pasta casera 🍝",
+      "imageUrl": "https://picsum.photos/800/800?12",
+      "likesCount": 0,
+      "commentsCount": 5,
+      "location": "Cocina",
+      "createdAt": 1710001000001,
+      "updatedAt": 1710001000001
     },
     {
       "id": "post_3",
       "userId": "user_3",
-      "caption": "Entrenamiento terminado 💪",
-      "imageUrl": "https://picsum.photos/800/800?random=203",
-      "createdAt": 1700000200000
+      "caption": "Entrenamiento del día 💪",
+      "imageUrl": "https://picsum.photos/800/800?13",
+      "likesCount": 0,
+      "commentsCount": 5,
+      "location": "Gym",
+      "createdAt": 1710001000002,
+      "updatedAt": 1710001000002
     },
     {
       "id": "post_4",
       "userId": "user_4",
-      "caption": "Machu Picchu al amanecer 🏔️",
-      "imageUrl": "https://picsum.photos/800/800?random=204",
-      "createdAt": 1700000300000
+      "caption": "Viaje soñado ✈️",
+      "imageUrl": "https://picsum.photos/800/800?14",
+      "likesCount": 0,
+      "commentsCount": 5,
+      "location": "Cusco",
+      "createdAt": 1710001000003,
+      "updatedAt": 1710001000003
     },
     {
       "id": "post_5",
       "userId": "user_5",
-      "caption": "Mi primera publicación en Idatgram 📸",
-      "imageUrl": "https://picsum.photos/800/800?random=205",
-      "createdAt": 1700000400000
+      "caption": "Nueva ilustración 🎨",
+      "imageUrl": "https://picsum.photos/800/800?15",
+      "likesCount": 0,
+      "commentsCount": 5,
+      "location": "Estudio",
+      "createdAt": 1710001000004,
+      "updatedAt": 1710001000004
     }
   ],
 
   "comments": [
     {
-      "id": "comment_1",
+      "id": "c1_1",
       "postId": "post_1",
       "userId": "user_2",
-      "text": "Qué hermosa vista 😍",
-      "createdAt": 1700001000000
+      "text": "Hermosa foto 😍",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000000,
+      "updatedAt": 1710002000000
     },
     {
-      "id": "comment_2",
+      "id": "c1_2",
       "postId": "post_1",
       "userId": "user_3",
-      "text": "Me encanta la iluminación",
-      "createdAt": 1700001001000
+      "text": "Me encanta el cielo",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000001,
+      "updatedAt": 1710002000001
     },
     {
-      "id": "comment_3",
+      "id": "c1_3",
       "postId": "post_1",
       "userId": "user_4",
-      "text": "Lugar increíble 🌊",
-      "createdAt": 1700001002000
+      "text": "Qué lugar es?",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000002,
+      "updatedAt": 1710002000002
     },
     {
-      "id": "comment_4",
+      "id": "c1_4",
       "postId": "post_1",
       "userId": "user_5",
-      "text": "Necesito ir ahí!",
-      "createdAt": 1700001003000
+      "text": "Colores increíbles",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000003,
+      "updatedAt": 1710002000003
     },
     {
-      "id": "comment_5",
+      "id": "c1_5",
       "postId": "post_1",
       "userId": "user_1",
-      "text": "Gracias por los comentarios 😊",
-      "createdAt": 1700001004000
-    },
-
-    {
-      "id": "comment_6",
-      "postId": "post_2",
-      "userId": "user_1",
-      "text": "Se ve deliciosa 🤤",
-      "createdAt": 1700001100000
-    },
-    {
-      "id": "comment_7",
-      "postId": "post_2",
-      "userId": "user_3",
-      "text": "Quiero la receta!",
-      "createdAt": 1700001101000
-    },
-    {
-      "id": "comment_8",
-      "postId": "post_2",
-      "userId": "user_4",
-      "text": "Perfecta para el almuerzo",
-      "createdAt": 1700001102000
-    },
-    {
-      "id": "comment_9",
-      "postId": "post_2",
-      "userId": "user_5",
-      "text": "Se ve brutal 🔥",
-      "createdAt": 1700001103000
-    },
-    {
-      "id": "comment_10",
-      "postId": "post_2",
-      "userId": "user_2",
-      "text": "Gracias! pronto subo la receta 👨‍🍳",
-      "createdAt": 1700001104000
-    },
-
-    {
-      "id": "comment_11",
-      "postId": "post_3",
-      "userId": "user_1",
-      "text": "Qué disciplina 💪",
-      "createdAt": 1700001200000
-    },
-    {
-      "id": "comment_12",
-      "postId": "post_3",
-      "userId": "user_2",
-      "text": "Motivación pura",
-      "createdAt": 1700001201000
-    },
-    {
-      "id": "comment_13",
-      "postId": "post_3",
-      "userId": "user_4",
-      "text": "Excelente rutina",
-      "createdAt": 1700001202000
-    },
-    {
-      "id": "comment_14",
-      "postId": "post_3",
-      "userId": "user_5",
-      "text": "Inspirador 👏",
-      "createdAt": 1700001203000
-    },
-    {
-      "id": "comment_15",
-      "postId": "post_3",
-      "userId": "user_3",
-      "text": "Gracias! constancia es clave",
-      "createdAt": 1700001204000
-    },
-
-    {
-      "id": "comment_16",
-      "postId": "post_4",
-      "userId": "user_1",
-      "text": "Perú es hermoso 🇵🇪",
-      "createdAt": 1700001300000
-    },
-    {
-      "id": "comment_17",
-      "postId": "post_4",
-      "userId": "user_2",
-      "text": "Sueño con ir ahí",
-      "createdAt": 1700001301000
-    },
-    {
-      "id": "comment_18",
-      "postId": "post_4",
-      "userId": "user_3",
-      "text": "Vista espectacular 😍",
-      "createdAt": 1700001302000
-    },
-    {
-      "id": "comment_19",
-      "postId": "post_4",
-      "userId": "user_5",
-      "text": "Algún día iré 🙌",
-      "createdAt": 1700001303000
-    },
-    {
-      "id": "comment_20",
-      "postId": "post_4",
-      "userId": "user_4",
-      "text": "Totalmente recomendado",
-      "createdAt": 1700001304000
-    },
-
-    {
-      "id": "comment_21",
-      "postId": "post_5",
-      "userId": "user_1",
-      "text": "Bienvenido a Idatgram 👋",
-      "createdAt": 1700001400000
-    },
-    {
-      "id": "comment_22",
-      "postId": "post_5",
-      "userId": "user_2",
-      "text": "Excelente foto!",
-      "createdAt": 1700001401000
-    },
-    {
-      "id": "comment_23",
-      "postId": "post_5",
-      "userId": "user_3",
-      "text": "Buen comienzo 💯",
-      "createdAt": 1700001402000
-    },
-    {
-      "id": "comment_24",
-      "postId": "post_5",
-      "userId": "user_4",
-      "text": "A seguir creando contenido!",
-      "createdAt": 1700001403000
-    },
-    {
-      "id": "comment_25",
-      "postId": "post_5",
-      "userId": "user_5",
       "text": "Gracias a todos 🙌",
-      "createdAt": 1700001404000
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000004,
+      "updatedAt": 1710002000004
+    },
+        {
+      "id": "c2_1",
+      "postId": "post_2",
+      "userId": "user_2",
+      "text": "Hermosa foto 😍",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000000,
+      "updatedAt": 1710002000000
+    },
+    {
+      "id": "c2_2",
+      "postId": "post_2",
+      "userId": "user_3",
+      "text": "Me encanta el cielo",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000001,
+      "updatedAt": 1710002000001
+    },
+    {
+      "id": "c2_3",
+      "postId": "post_2",
+      "userId": "user_4",
+      "text": "Qué lugar es?",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000002,
+      "updatedAt": 1710002000002
+    },
+    {
+      "id": "c2_4",
+      "postId": "post_2",
+      "userId": "user_5",
+      "text": "Colores increíbles",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000003,
+      "updatedAt": 1710002000003
+    },
+    {
+      "id": "c2_5",
+      "postId": "post_2",
+      "userId": "user_1",
+      "text": "Gracias a todos 🙌",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000004,
+      "updatedAt": 1710002000004
+    },
+        {
+      "id": "c3_1",
+      "postId": "post_3",
+      "userId": "user_2",
+      "text": "Hermosa foto 😍",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000000,
+      "updatedAt": 1710002000000
+    },
+    {
+      "id": "c3_2",
+      "postId": "post_3",
+      "userId": "user_3",
+      "text": "Me encanta el cielo",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000001,
+      "updatedAt": 1710002000001
+    },
+    {
+      "id": "c3_3",
+      "postId": "post_3",
+      "userId": "user_4",
+      "text": "Qué lugar es?",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000002,
+      "updatedAt": 1710002000002
+    },
+    {
+      "id": "c3_4",
+      "postId": "post_3",
+      "userId": "user_5",
+      "text": "Colores increíbles",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000003,
+      "updatedAt": 1710002000003
+    },
+    {
+      "id": "c3_5",
+      "postId": "post_3",
+      "userId": "user_1",
+      "text": "Gracias a todos 🙌",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000004,
+      "updatedAt": 1710002000004
+    },
+        {
+      "id": "c4_1",
+      "postId": "post_4",
+      "userId": "user_2",
+      "text": "Hermosa foto 😍",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000000,
+      "updatedAt": 1710002000000
+    },
+    {
+      "id": "c4_2",
+      "postId": "post_4",
+      "userId": "user_3",
+      "text": "Me encanta el cielo",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000001,
+      "updatedAt": 1710002000001
+    },
+    {
+      "id": "c4_3",
+      "postId": "post_4",
+      "userId": "user_4",
+      "text": "Qué lugar es?",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000002,
+      "updatedAt": 1710002000002
+    },
+    {
+      "id": "c4_4",
+      "postId": "post_4",
+      "userId": "user_5",
+      "text": "Colores increíbles",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000003,
+      "updatedAt": 1710002000003
+    },
+    {
+      "id": "c4_5",
+      "postId": "post_4",
+      "userId": "user_1",
+      "text": "Gracias a todos 🙌",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000004,
+      "updatedAt": 1710002000004
+    },
+        {
+      "id": "c5_1",
+      "postId": "post_5",
+      "userId": "user_2",
+      "text": "Hermosa foto 😍",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000000,
+      "updatedAt": 1710002000000
+    },
+    {
+      "id": "c5_2",
+      "postId": "post_5",
+      "userId": "user_3",
+      "text": "Me encanta el cielo",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000001,
+      "updatedAt": 1710002000001
+    },
+    {
+      "id": "c5_3",
+      "postId": "post_5",
+      "userId": "user_4",
+      "text": "Qué lugar es?",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000002,
+      "updatedAt": 1710002000002
+    },
+    {
+      "id": "c5_4",
+      "postId": "post_5",
+      "userId": "user_5",
+      "text": "Colores increíbles",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000003,
+      "updatedAt": 1710002000003
+    },
+    {
+      "id": "c5_5",
+      "postId": "post_5",
+      "userId": "user_1",
+      "text": "Gracias a todos 🙌",
+      "likesCount": 0,
+      "repliesCount": 0,
+      "parentCommentId": null,
+      "createdAt": 1710002000004,
+      "updatedAt": 1710002000004
     }
   ]
 }
