@@ -340,7 +340,7 @@
       "backgroundColor": "#000000",
       "textColor": "#FFFFFF",
       "createdAt": 1710000000000,
-      "expiresAt": 1710086400000
+      "expiresAt": 1893456000000
     },
     {
       "id": "story_2",
@@ -350,7 +350,7 @@
       "backgroundColor": "#000000",
       "textColor": "#FFFFFF",
       "createdAt": 1710000000000,
-      "expiresAt": 1710086400000
+      "expiresAt": 1893456000000
     }
   ]
 }
