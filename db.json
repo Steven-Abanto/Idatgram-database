@@ -330,5 +330,27 @@
       { "followerId": "current_user", "followingId": "user_3" },
       { "followerId": "current_user", "followingId": "user_4" },
       { "followerId": "current_user", "followingId": "user_5" }
+  ],
+  "stories":[
+    {
+      "id": "story_1",
+      "userId": "user_1",
+      "imageUrl": "https://picsum.photos/800/1400",
+      "text": "Mi primera story",
+      "backgroundColor": "#000000",
+      "textColor": "#FFFFFF",
+      "createdAt": 1710000000000,
+      "expiresAt": 1710086400000
+    },
+    {
+      "id": "story_2",
+      "userId": "user_2",
+      "imageUrl": "https://picsum.photos/800/1400",
+      "text": "Mi primera story",
+      "backgroundColor": "#000000",
+      "textColor": "#FFFFFF",
+      "createdAt": 1710000000000,
+      "expiresAt": 1710086400000
+    }
   ]
 }
